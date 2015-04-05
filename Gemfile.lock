@@ -5,6 +5,12 @@ GIT
     bitcoin-client (0.0.3)
       rest-client
 
+GIT
+  remote: git://github.com/solnic/transproc.git
+  revision: e646bd9e492bcbeabed25f3c0ae360acd29239b9
+  specs:
+    transproc (0.1.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -27,3 +33,4 @@ PLATFORMS
 
 DEPENDENCIES
   bitcoin-client!
+  transproc!
